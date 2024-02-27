@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
-      - name: Check out repository code
+      - name: checkout repo
         uses: actions/checkout@v3
       - name: use node.js
         uses: actions/setup-node@v3
