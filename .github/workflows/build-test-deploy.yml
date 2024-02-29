@@ -12,7 +12,8 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npm run build 
-   test:
+      
+  test:
      needs: build
      runs-on: ubuntu-latest
      steps: 
@@ -23,4 +24,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm test 
+      - run: npm test
