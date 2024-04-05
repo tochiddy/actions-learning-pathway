@@ -10,8 +10,10 @@ To follow along with the step-by-step instructions in the Essentials module, you
 
 
 What is going on here
+How is work going
 
 Click Create repository from template and we’re ready to build our first Actions workflow!
+
 
 
 
